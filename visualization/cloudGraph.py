@@ -3,15 +3,15 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
 # Load data as pandas dataframe
-df = pd.read_csv("C:\\Users\\hairu\\OneDrive\\Desktop\\BigData\\project\\Complete_Codes\\visualization\\words_all.csv", sep='\t')
+df = pd.read_csv("C:\\Users\\visualization\\words_all.csv", sep='\t')
 
-df = pd.read_csv("C:\\Users\\hairu\\OneDrive\\Desktop\\BigData\\project\\Complete_Codes\\visualization\\words_1999.csv", sep='\t')
+# df = pd.read_csv("C:\\Users\\visualization\\words_1999.csv", sep='\t')
 
-df = pd.read_csv("C:\\Users\\hairu\\OneDrive\\Desktop\\BigData\\project\\Complete_Codes\\visualization\\words_2000.csv", sep='\t')
+# df = pd.read_csv("C:\\Users\\visualization\\words_2000.csv", sep='\t')
 
-df = pd.read_csv("C:\\Users\\hairu\\OneDrive\\Desktop\\BigData\\project\\Complete_Codes\\visualization\\words_2001.csv", sep='\t')
+# df = pd.read_csv("C:\\Users\\visualization\\words_2001.csv", sep='\t')
 
-df = pd.read_csv("C:\\Users\\hairu\\OneDrive\\Desktop\\BigData\\project\\Complete_Codes\\visualization\\words_2002.csv", sep='\t')
+# df = pd.read_csv("C:\\Users\\visualization\\words_2002.csv", sep='\t')
 
 # word cloud from frequencies
 records = df.to_dict(orient='records')
